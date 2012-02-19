@@ -1,8 +1,5 @@
 @import "less/mixins.less";
 
-@blue: #7fb6dc;
-@purple: #b081d9;
-
 body{
     #gradient > .vertical(#69a5d7, #508fc6);
     border-top: 6px solid #3573b3;
@@ -40,9 +37,22 @@ footer{
 }
 
 
-/* --------------
- * Media Queries.
- * --------------
+/* ---------------------
+ * Custom text highlight
+ * ---------------------
+ */
+
+.highlight{
+    background: fadeout(#e67080, 25%);
+}
+
+::-moz-selection{ .highlight; }
+::selection{ .highlight; }
+
+
+/* -------------
+ * Media Queries
+ * -------------
  */
 
 /* Landscape phones and down */
