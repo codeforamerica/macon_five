@@ -34,6 +34,18 @@ footer{
     #gradient > .vertical(#525041, #44433b);
     border-top: 6px solid #3e3d38;
     padding: 75px 0;
+    a{
+        display: block;
+    }
+}
+
+.tooltip-inner{
+    background-color: #3e3d38;
+    min-width: 100px;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top: 5px solid #3e3d38;
 }
 
 
@@ -71,6 +83,9 @@ footer{
         margin: 0 auto;
         width: 50%;
     }
+    .tooltip-inner, .tooltip.top .tooltip-arrow {
+        display: none;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -88,6 +103,9 @@ footer{
         display: block;
         margin: 0 auto;
         width: 50%;
+    }
+    .tooltip-inner, .tooltip.top .tooltip-arrow {
+        display: none;
     }
 }
 
