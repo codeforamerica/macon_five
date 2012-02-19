@@ -28,17 +28,32 @@ p{
 .blocks{
     #gradient > .vertical(#7fb6dc, #508fc6);
     border-top: 4px solid darken(@blue, 10%);
-    padding: 125px 0;
 }
 
 .weeks{
     #gradient > .vertical(#7f8bdc, #5054c6);
     border-top: 4px solid darken(#7f8bdc, 10%);
-    padding: 125px 0;
 }
 
 .wards{
     #gradient > .vertical(#b081d9, #8851c3);
     border-top: 4px solid darken(@purple, 10%);
+}
+
+.five{
     padding: 125px 0;
+}
+
+// Landscape phones and down
+@media (max-width: 480px) {
+    .five{
+        padding: 25px 0;
+    }
+}
+
+// Landscape phone to portrait tablet
+@media (max-width: 768px) {
+    .five{
+        padding: 50px 0;
+    }
 }
