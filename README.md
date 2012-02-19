@@ -1,4 +1,4 @@
-[Macon Five](http://maconfive.herokuapp.com)
+[Macon Five](http://maconfive.com)
 ============
 
 A simple site to help explain the Macon [Five By Five
